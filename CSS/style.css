@@ -1,0 +1,71 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "HELVETICA";
+}
+
+header
+{
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #FFF;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 200%;
+    padding: 10px;
+}
+
+aside > *
+{
+    list-style: none;
+}
+
+aside
+{
+    background-color: rgba(126, 127, 200);
+    width: 300px;
+    color: #CCC;
+    height: 100%;
+}
+
+a
+{
+    text-decoration: none;
+    color: #DDD;
+}
+
+div
+{
+    padding: 10px;
+    font-weight: 700;
+}
+
+ul
+{
+    padding-left: 10px;
+}
+
+ul li
+{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+ul li ul
+{
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-left: 30px;
+    list-style: none;
+}
+
+ul li ul li
+{
+    font-size: 15px;
+}
