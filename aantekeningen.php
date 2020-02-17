@@ -8,4 +8,22 @@
     //De punt werkt als een soort +, het bind de variabel aan de string en zet ze te samen neer.
     echo $text . " wereld";
 
+    //In PHP hebben we meerdere soorten variabellen
+
+    //string
+    $name = "Remco";
+    //boolean
+    $teacher = true;
+
+    //integer
+    $age = 32;
+
+    //float
+    $length = 1.91;
+
+    //array
+
+
+    //toon tekst
+    echo $name . " is " . $age . " jaar oud en is " . $length . " meter lang";
 ?>
