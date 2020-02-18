@@ -26,4 +26,9 @@
 
     //toon tekst
     echo $name . " is " . $age . " jaar oud en is " . $length . " meter lang";
+
+    //Include en Require
+
+    /*Include en Require zorgen er voor dat je bijvoorbeeld een header en een sidebar in files kunt inladen*/
+
 ?>
