@@ -13,7 +13,7 @@
         Opdracht X.X
     </title>
 
-    <link type="text/css" rel="stylesheet" href="CSS/style.css"/>
+    <link type="text/css" rel="stylesheet" href="../CSS/style.css"/>
     <meta name="description" content="Omschrijving over de website">
     <meta name="keywords" content="sleutelwoord1, sleutelwoord2">
     <meta charset="utf-8">
