@@ -28,22 +28,17 @@ aside > *
 
 aside
 {
-    background-color: rgba(126, 127, 200);
+    background-color: rgb(126, 127, 200);
     width: 300px;
     color: #CCC;
     height: 100%;
+    display: inline-block;
 }
 
 a
 {
     text-decoration: none;
     color: #DDD;
-}
-
-div
-{
-    padding: 10px;
-    font-weight: 700;
 }
 
 ul
@@ -68,4 +63,20 @@ ul li ul
 ul li ul li
 {
     font-size: 15px;
+}
+
+#wrapper2
+{
+    position: relative;
+    top: -100px;
+
+    padding: 30px;
+    display: inline-block;
+}
+
+footer
+{
+    padding: 10px 30px 20px 30px;
+    color: #FFF;
+    background-color: #000;
 }
