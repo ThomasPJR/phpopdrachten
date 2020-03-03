@@ -6,10 +6,14 @@
  * File: index.php
  */
 ?>
-
 <footer>
     <p>
-        Gemaakt door: de heer T Ruijters.
+        Gemaakt door: de heer T Ruijters.<br>
+        <?php
+            include "../hoofdstuk3/variabelen.php";
+
+            echo $year . "     -     " . $name;
+        ?>
     </p>
 </footer>
 </body
