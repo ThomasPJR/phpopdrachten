@@ -28,6 +28,7 @@ aside > *
 
 aside
 {
+    float: left;
     background-color: rgb(126, 127, 200);
     width: 300px;
     color: #CCC;
@@ -67,15 +68,17 @@ ul li ul li
 
 #wrapper2
 {
-    position: relative;
-    top: -100px;
+    float: left;
 
+    position: relative;
+    width: 500px;
     padding: 30px;
     display: inline-block;
 }
 
 footer
 {
+    clear: both;
     padding: 10px 30px 20px 30px;
     color: #FFF;
     background-color: #000;

@@ -9,11 +9,11 @@
 
 
 <?php
-    include "/phpopdrachten/includes/header.php";
+    include "Includes/header.php";
 ?>
 
 <?php
-    include "/phpopdrachten/includes/aside.php";
+    include "Includes/aside.php";
 ?>
 
 <div id="wrapper2">
@@ -21,5 +21,5 @@
 </div>
 
 <?php
-    include "/phpopdrachten/includes/footer.php";
+    include "Includes/footer.php";
 ?>
