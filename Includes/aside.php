@@ -24,6 +24,7 @@
                     <a href="/phpopdrachten/hoofdstuk2/opdracht_2-2.php">Opdracht 2.2</a>
                 </li>
             </ul>
+        </li>
         <li>Hoofdstuk 3
             <ul>
                 <li>
@@ -32,8 +33,23 @@
                 <li>
                     <a href="/phpopdrachten/hoofdstuk3/opdracht_3-2.php">Opdracht 3.2</a>
                 </li>
+                <li>
+                    <a href="/phpopdrachten/hoofdstuk3/opdracht_3-3.php">Opdracht 3.3</a>
+                </li>
+                <li>
+                    <a href="/phpopdrachten/hoofdstuk3/variabelen.php">variabelen.php</a>
+                </li>
             </ul>
         </li>
+        <li>Hoofdstuk 4
+            <ul>
+                <li>
+                    <a href="/phpopdrachten/hoofdstuk 4/opdrachten/opdracht4.1">Opdracht 4.1</a>
+                </li>
+                <li>
+                    <a href="/phpopdrachten/hoofdstuk 4/opdrachten/opdracht4.2.php">Opdracht 4.2</a>
+                </li>
+            </ul>
         </li>
     </ul>
 </aside>
