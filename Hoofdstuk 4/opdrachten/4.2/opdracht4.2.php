@@ -17,7 +17,7 @@ include "../../Includes/aside.php";
 
 <div id="wrapper2">
     <?php
-    include "script.php";
+        include "script.php";
     ?>
 </div>
 

@@ -79,6 +79,12 @@
                         break;
                 }
 
-            echo "Voor het vak " . $courseName . " heb " . $teacher . " als docent";
+            echo 'Voor het vak <span class="opdracht4_2">' . $courseName . '</span> heb ik <span class="opdracht4_2">'. $teacher .  '</span> als docent';
         ?>
+     <style>
+         span
+         {
+             font-weight: 900;
+         }
+     </style>
  </form>
