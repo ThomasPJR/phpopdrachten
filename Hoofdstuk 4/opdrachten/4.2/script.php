@@ -1,11 +1,11 @@
  <form method="post">
         <label for="Subject">Vak</label>
-        <input type="text" id="Subject" NAME="SUBJECT"><br>
+        <input type="text" id="Subject" NAME="subject"><br>
         <button type="submit">Submit</button><br>
 
         <?php
 
-            $courseName = $_POST['SUBJECT'];
+            $courseName = $_POST['subject'];
 
 
             /*
