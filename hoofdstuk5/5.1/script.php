@@ -1,4 +1,5 @@
-<form method = get>
+<form method="get">
+    <!-- voeg volgende keer een action toe-->
     <p>
         Deze opdracht is gemaakt voordat we de uitleg hebben gehad.<br>
         Dit komt door de corona situatie, waardoor wij nu uitleg missen op de deadline.<br>
@@ -26,18 +27,18 @@
     <br><button type="submit">klik hier</button>
 
     <?php
-        $bName = $_GET['BEDRIJF'];
-        $vName = $_GET['VNAAM'];
-        $aName = $_GET['ANAAM'];
-        $tNumber = $_GET['TNUMMER'];
-        $email = $_GET['EMAIL'];
-        $message = $_GET['BERICHT'];
+    $bName = $_GET['BEDRIJF'];
+    $vName = $_GET['VNAAM'];
+    $aName = $_GET['ANAAM'];
+    $tNumber = $_GET['TNUMMER'];
+    $email = $_GET['EMAIL'];
+    $message = $_GET['BERICHT'];
     ?>
 </form>
 
 <br>
 <br>
-s
+
 <table>
     <tr>
         <td>
