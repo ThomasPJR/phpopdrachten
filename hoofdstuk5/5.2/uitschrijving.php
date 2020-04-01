@@ -5,7 +5,7 @@
         </td>
         <td>
             <?php
-                echo $_GET[fullname];
+                echo $_GET['fullname'];
             ?>
         </td>
     </tr>
@@ -15,7 +15,7 @@
         </td>
         <td>
             <?php
-            echo $_GET[number];
+            echo $_GET['number'];
             ?>
         </td>
     </tr>
@@ -25,7 +25,7 @@
         </td>
         <td>
             <?php
-            echo $_GET[date];
+            echo $_GET['date'];
             ?>
         </td>
     </tr>
@@ -35,7 +35,7 @@
         </td>
         <td>
             <?php
-            echo $_GET[reason];
+            echo $_GET['reason'];
             ?>
         </td>
     </tr>
@@ -45,7 +45,7 @@
         </td>
         <td>
             <?php
-            echo $_GET[year];
+            echo $_GET['year'];
             ?>
         </td>
     </tr>
@@ -55,7 +55,7 @@
         </td>
         <td>
             <?php
-            $succesclass = $_GET[succesclass];
+            $succesclass = $_GET['succesclass'];
                 if($succesclass == true)
                 {
                     echo "ja";
@@ -91,7 +91,7 @@
         </td>
         <td>
             <?php
-            echo $_GET[reasonText];
+            echo $_GET['reasonText'];
             ?>
         </td>
     </tr>

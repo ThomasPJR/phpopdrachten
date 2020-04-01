@@ -1,7 +1,7 @@
 <?php
 //Haal de formulier gegevens op
 //include hieronder "lesopdracht_function.php" die de naam van de docent terug geeft.
-
+require ('lesopdracht_functions53.php');
 ?>
 <table>
     <tr>

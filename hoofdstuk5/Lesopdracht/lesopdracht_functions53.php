@@ -6,7 +6,7 @@
 function getTeacherName(){
     //Zorg dat je hier de juiste docentnaam met een return terug stuurt.
 
-    $courseName = "";
+    $courseName = "PHP";
     $teacher = "";
 
 
@@ -80,7 +80,6 @@ function getTeacherName(){
                 $teacher = "Mevrouw de Ruiter";
                 break;
         }
-
-    return $teacher;
-}
+        return $teacher;
+    }
 ?>
