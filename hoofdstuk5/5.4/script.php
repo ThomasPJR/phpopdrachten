@@ -1,7 +1,7 @@
 <h3>
     Stoplicht
 </h3>
-<form action="script.php" method="post">
+<form method="post">
     <label>
         Komt er een ambulance aan?
     </label>
@@ -39,16 +39,29 @@
     ?>
      ambulance aan.
 </p>
-    <?php
-        if($_POST['ambulance'] == 'yes' || $_POST['color'] == "rood")
-        {
-    ?>
-            <p style="color: red">
-                U moet stoppen
-            </p>
-    <?php
-        }
-    ?>
+
+
+<?php
+if(isset($_POST['ambulance']) || isset($_POST['color']))
+    {
+?>
+        <p>
+            Je hebt een van de twee waardes niet ingevoerd
+        </p>
+<?php
+    }
+?>
+
+<?php
+    if($_POST['ambulance'] == 'yes' && isset($_POST['color'])|| $_POST['color'] == "rood")
+    {
+?>
+    <p style="color: red">
+        U moet stoppen
+    </p>
+<?php
+    }
+?>
 
 <?php
     if($_POST['color'] == "oranje" && $_POST['ambulance'] == 'no')
