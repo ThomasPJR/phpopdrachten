@@ -62,7 +62,8 @@
 ?>
 
 <?php
-    if($_POST['color'] == "groen" && $_POST['ambulance'] == 'no') {
+    if($_POST['color'] == "groen" && $_POST['ambulance'] == 'no')
+    {
 ?>
         <p style="color: green">
             U mag door rijden;
