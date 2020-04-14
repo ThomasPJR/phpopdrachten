@@ -42,7 +42,7 @@
 
 
 <?php
-if(isset($_POST['ambulance']) || isset($_POST['color']))
+if(!isset($_POST['ambulance']) || !isset($_POST['color']))
     {
 ?>
         <p>
