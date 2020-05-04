@@ -1,5 +1,4 @@
 <?php
-    echo "Welkom infedel";
 
     include "../../Includes/header.php";
 

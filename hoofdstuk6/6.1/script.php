@@ -32,5 +32,5 @@ include "../../Includes/aside.php";
             </tr>
         </table>
 <?php
-include "../../Includes/footer.php";
+    include "../../Includes/footer.php";
 ?>

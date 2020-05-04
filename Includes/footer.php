@@ -44,11 +44,11 @@
         <?php
             if (isset($_SESSION['username'])) {
                 $bezoeker = $_SESSION['username']. "&nbsp;
-                <a href='../hoofdstuk6/6.1/logout.php'>Loguit</a>";
+                <a href='/../../phpopdrachten/hoofdstuk6/6.1/logout.php'>Loguit</a>";
             }
             else {
                 $bezoeker = "onbekende bezoeker". "&nbsp;
-                <a href='../hoofdstuk6/6.1/script.php'>Login</a>";
+                <a href='/../../phpopdrachten/hoofdstuk6/6.1/script.php'>Login</a>";
             }
 
             echo "<p>" . $uur . " " . $bezoeker . " " . "&copy;" . " " . $year .  "<p/>";

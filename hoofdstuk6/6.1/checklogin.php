@@ -1,5 +1,6 @@
 <?php
-$authUsers = Array(
+$authUsers = Array
+(
     "Abu" => "bekend",
     "Nordin" => "onbekend",
     "BasZ" => "654321",
