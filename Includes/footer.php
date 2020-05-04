@@ -13,7 +13,6 @@
             include "../hoofdstuk3/variabelen.php";
             date_default_timezone_set("Europe/Amsterdam");
             $uur = date("H");
-            echo $year . "     -     " . $name . "<br><br>";
 
 //            Uur tussen: Wens:
 //            0-5 Goedennacht
@@ -42,6 +41,19 @@
                 echo "Current time unknown, good day sir/mam";
             }
         ?>
+        <?php
+            if (isset($_SESSION['username'])) {
+                $bezoeker = $_SESSION['username']. "&nbsp;
+                <a href='../hoofdstuk6/6.1/logout.php'>Loguit</a>";
+            }
+            else {
+                $bezoeker = "onbekende bezoeker". "&nbsp;
+                <a href='../hoofdstuk6/6.1/script.php'>Login</a>";
+            }
+
+            echo "<p>" . $uur . " " . $bezoeker . " " . "&copy;" . " " . $year .  "<p/>";
+        ?>
+
     </p>
 </footer>
 </body

@@ -5,6 +5,9 @@
  * Time: 2:38 PM
  * File: header.php
  */
+
+session_start();
+
 ?>
 
 <html>
