@@ -18,6 +18,7 @@
 </form>
 
 <?php
+session_start();
 
 if
 (
@@ -73,4 +74,11 @@ if (isset($_GET['keuze']))
     {
         echo "nope";
     }
+}
+$_SESSION['player'] = 0;
+$_SESSION['NPC'] = 0;
+if($_SESSION['player'] === 5 || $_SESSION['NPC'] === 5)
+{
+    echo "you won, congrats, want a sticker?";
+    session_destroy();
 }
