@@ -20,6 +20,8 @@
 <?php
 session_start();
 
+echo "speler" . $_SESSION['user1'] . "</br>";
+echo "Computer" . $_SESSION['NPC'] . "</br>";
 if
 (
     !isset($_SESSION['user1']) ||
