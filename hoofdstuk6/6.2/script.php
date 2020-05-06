@@ -20,12 +20,10 @@
 <?php
 session_start();
 
-echo "speler" . $_SESSION['user1'] . "</br>";
-echo "Computer" . $_SESSION['NPC'] . "</br>";
 if
 (
-    !isset($_SESSION['user1']) ||
-    !isset($_SESSION['user2'])
+    !isset($_SESSION['player']) ||
+    !isset($_SESSION['NPC'])
 )
 {
     $_SESSION['player'] = 0;
@@ -54,7 +52,7 @@ if (isset($_GET['keuze']))
         $spelerkeuze === "schaar" && $computerkeuze === "papier"
     )
     {
-        $_SESSION['player'] += 1
+        $_SESSION['player'] += 1;
     }
 
     elseif
@@ -74,11 +72,13 @@ if (isset($_GET['keuze']))
         $spelerkeuze === "schaar" && $computerkeuze === "schaar"
     )
     {
-        echo "nope";
+        echo "</br>nope</br>";
     }
 }
-$_SESSION['player'] = 0;
-$_SESSION['NPC'] = 0;
+
+echo "</br>speler: " . $_SESSION['player'] . "</br>";
+echo "Computer: " . $_SESSION['NPC'] . "</br>";
+
 if($_SESSION['player'] === 5 || $_SESSION['NPC'] === 5)
 {
     echo "you won, congrats, want a sticker?";
