@@ -65,8 +65,6 @@ foreach ($aJokes as $jokes)
     </thead>
     <?php
 
-        $counter = 0;
-
         foreach ($aJokes as $jokes)
         {
             $resultTable = "<tr>" . "<td>" . $jokes["id"] . "</td>" . "<td>" . $jokes["joketext"] . "</td>" . "<td>" . $jokes["jokeclou"] . "</td>". "<td>" . $jokes["jokedate"] . "</td>" . "</tr>";
