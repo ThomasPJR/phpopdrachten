@@ -13,3 +13,4 @@ catch (PDOException $e)
     die();
 }
 echo "database connectie gelukt";
+
