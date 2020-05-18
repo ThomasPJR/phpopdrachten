@@ -64,13 +64,11 @@ foreach ($aJokes as $jokes)
         </tr>
     </thead>
     <?php
-
         foreach ($aJokes as $jokes)
         {
             $resultTable = "<tr>" . "<td>" . $jokes["id"] . "</td>" . "<td>" . $jokes["joketext"] . "</td>" . "<td>" . $jokes["jokeclou"] . "</td>". "<td>" . $jokes["jokedate"] . "</td>" . "</tr>";
 
             echo $resultTable;
         }
-
     ?>
 </table>

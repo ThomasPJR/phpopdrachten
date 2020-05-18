@@ -53,14 +53,14 @@
             <?php
 
                 // Resultaten rij voor rij ophalen
-                while ($row = $jokes->fetch(PDO::FETCH_ASSOC)) {
+                while ($row = $jokes->fetch(PDO::FETCH_ASSOC))
+                {
                     echo "<tr>" .
                         "<td>" . $row["id"] . "</td>" .
                         "<td>" . $row["joketext"] . "</td>" .
                         "<td>" .  $row["jokeclou"] . "<td>" . $row["jokedate"] . "</td>" .
                         "</tr>";
                 }
-
             ?>
         <tbody>
     </table>

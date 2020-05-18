@@ -10,7 +10,7 @@
     <p>
         Gemaakt door: de heer T Ruijters.<br>
         <?php
-            include "../hoofdstuk3/variabelen.php";
+            //include "../hoofdstuk3/variabelen.php";
             date_default_timezone_set("Europe/Amsterdam");
             $uur = date("H");
 
@@ -50,8 +50,7 @@
                 $bezoeker = "onbekende bezoeker". "&nbsp;
                 <a href='/../../phpopdrachten/hoofdstuk6/6.1/script.php'>Login</a>";
             }
-
-            echo "<p>" . $uur . " " . $bezoeker . " " . "&copy;" . " " . $year .  "<p/>";
+            echo "<p>" . $bezoeker . " " . "&copy;" .  "<p/>";
         ?>
 
     </p>
