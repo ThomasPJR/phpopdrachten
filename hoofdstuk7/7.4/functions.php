@@ -39,7 +39,6 @@ function executeQuery($sql)
     }
 }
 
-// Uitvoeren van een query via exec()
 function executeQueryViaExec($sql)
 {
     global $pdo;

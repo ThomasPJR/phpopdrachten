@@ -13,17 +13,14 @@
     if(isset($_GET["search"]))
     {
         $query = "SELECT * FROM joke";
-        if(!empty($_GET["search"]))
-        {
+        if (!empty($_GET["search"])) {
             $temp = $_GET["search"];
 
             $query = "SELECT * FROM joke WHERE joketext LIKE '%$temp%'";
         }
     }
 
-
     $jokes = executeQuery($query);
-
 
     echo "<p> $query </p>";
     ?>
@@ -62,7 +59,7 @@
                         "</tr>";
                 }
             ?>
-        <tbody>
+        </tbody>
     </table>
 
 
