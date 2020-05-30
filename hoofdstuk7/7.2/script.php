@@ -1,4 +1,8 @@
 <?php
+
+include "../../Includes/header.php";
+include "../../Includes/aside.php";
+
 // Open de database connectie en ODBC driver
 try
 {
@@ -72,3 +76,6 @@ foreach ($aJokes as $jokes)
         }
     ?>
 </table>
+<?php
+include "../../Includes/footer.php";
+?>

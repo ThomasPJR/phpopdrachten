@@ -1,5 +1,6 @@
 <?php
-
+include "../../Includes/header.php";
+include "../../Includes/aside.php";
 
     // Inladen functies bestand
     include("functions.php");
@@ -61,6 +62,8 @@
             ?>
         </tbody>
     </table>
-
+<?php
+include "../../Includes/footer.php";
+?>
 
 

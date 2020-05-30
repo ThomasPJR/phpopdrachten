@@ -6,6 +6,8 @@
  * File: insert.php
  */
 
+include "../../Includes/header.php";
+include "../../Includes/aside.php";
 include "functions.php";
 
 startConnection();
@@ -66,4 +68,5 @@ if(isset($_POST["button"]))
 
 <?php
 }
+include "../../Includes/footer.php";
 ?>

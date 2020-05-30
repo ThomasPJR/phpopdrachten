@@ -1,3 +1,8 @@
+<?php
+    include "../../Includes/header.php";
+    include "../../Includes/aside.php";
+?>
+
 <h1>
     steen papier schaar, wa leuk
 </h1>
@@ -18,7 +23,6 @@
 </form>
 
 <?php
-session_start();
 
 if
 (
@@ -84,3 +88,6 @@ if($_SESSION['player'] === 5 || $_SESSION['NPC'] === 5)
     echo "you won, congrats, want a sticker?";
     session_destroy();
 }
+
+include "../../Includes/footer.php";
+?>
