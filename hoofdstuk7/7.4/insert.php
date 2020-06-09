@@ -11,7 +11,10 @@ include "../../Includes/aside.php";
 include "functions.php";
 
 startConnection();
-?>
+
+if(isset($_SESSION['check']))
+{
+    ?>
     <div id="main">
         <h1>
             Nieuwe grap toevoegen
@@ -42,7 +45,12 @@ startConnection();
             </table>
         </form>
     </div>
-<?php
+    <?php
+}
+else
+{
+    echo "U bent mogelijk niet ingelogt, of u hebt niet de machtiging om grappen toe te voegen";
+}
 
 if(isset($_POST["button"]))
 {
@@ -68,5 +76,6 @@ if(isset($_POST["button"]))
 
 <?php
 }
+
 include "../../Includes/footer.php";
 ?>

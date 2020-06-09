@@ -10,10 +10,14 @@ $authUsers = Array
 
 if ($_POST['username'] == 'Abu' && $_POST['password'] == 'bekend')
 {
+    session_start();
     $_SESSION['username'] = $_POST['username'];
+    $_SESSION['check'] = true;
     header('location: welkom.php');
 }
-else {
+
+else
+{
 // $message = "Ongeldige username/wachtwoord
 // {$_POST['username']}, probeer het nog eens.";
     include "script.php";
